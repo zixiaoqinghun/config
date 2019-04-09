@@ -2,7 +2,7 @@ zuul:
   routes:
     api-a:
       path: /member/**
-      service-id: app-shop-member
+      service-id: app-shop-member1
     api-b:
       path: /order/**
-      service-id: app-shop-order
+      service-id: app-shop-order1
