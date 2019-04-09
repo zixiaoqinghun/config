@@ -1,8 +1,8 @@
 zuul:
   routes:
-    api-s1:
+    api-a:
       path: /member/**
-      service-id: app-shop-member
-    api-s2:
+      service-id: app-shop-member1
+    api-b:
       path: /order/**
-      service-id: app-shop-order
+      service-id: app-shop-order1
